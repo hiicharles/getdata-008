@@ -32,7 +32,7 @@ The script perform the following
         - perform average group by activity and subject and stored as tbl_data_4
         - output the result as file
 
-For modetailed information, please read the comment in run_analysis.R        
+For more information, please read the comment in run_analysis.R        
         
 
 ### CodeBook.md
@@ -40,9 +40,9 @@ For modetailed information, please read the comment in run_analysis.R
 The CodeBook will explain everything about this course project.  That includes
     
         - data source
-        - the required tidy process
-        - the script
-        - the output
+        - the tasks to tidy the data
+        - the run_analysis.R script
+        - the expected result
 
 
 ### output.txt
