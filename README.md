@@ -9,6 +9,32 @@ Getting and Cleaning Data Course Project
 
 The script that can be download and run to generate tidy data (output.txt). 
 
+The script perform the following
+
+        - create working directory
+        - download the file into working directory
+        - unzip the file
+        - read 8 files
+            - tbl_activity
+            - tbl_features
+            - x_test
+            - y_test
+            - subject_test
+            - x_train
+            - y_train
+            - subject_train
+        - the feature description was improved because header cannot have character such as -, ( and )
+        - combine test data as single table known as tbl_test
+        - combine train data as single table as tbl_train
+        - combine test and train into single table as tbl_data_1
+        - select only features that represent mean and std as tbl_data_2
+        - replace activity id with activity description and stored as tbl_data_3
+        - perform average group by activity and subject and stored as tbl_data_4
+        - output the result as file
+
+For modetailed information, please read the comment in run_analysis.R        
+        
+
 ### CodeBook.md
 
 The CodeBook will explain everything about this course project.  That includes
